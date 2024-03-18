@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+body {
+  background-color: rgb(245, 230, 233);
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.form {
+  padding: 30px;
+  display: flex;
+  gap: 10px;
+}
+.form input,
+.form button {
+  padding: 12px;
+  border: 1px solid #ddd;
+  outline: none;
+  transition: 0.25s ease;
+}
+.form__input-name {
+  height: 40px;
+  width: 650px;
+}
+.btn0 {
+  position: relative;
+  top: -3px;
+  height: 45px;
+  width: 80px;
+  border-radius: 5px;
+  cursor: pointer;
+  color: #fff;
+  background-color: rgb(71, 71, 255);
+}
+.form input:focus {
+  box-shadow: 0 0 0 2.5px #a7d3ff;
+}
+.abbos {
+  background-color: #fff;
+  margin-top: 150px;
+  border-radius: 20px;
+  padding: 40px;
+  width: 900px;
+}
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  border-radius: 12px 12px 0 0;
+  overflow: hidden;
+  text-align: center;
+}
+.table th {
+  color: #fff;
+}
+.table th,
+.table td {
+  padding: 12px;
+  border-top: 1px solid #ddd;
+}
+
+.btn-danger {
+  width: 30px;
+  height: 30px;
+  border: 0;
+  background: 0;
+  color: blue;
+  font-size: 20px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.btn-danger:hover {
+  color: red;
+}
+.check {
+  font-size: 40px;
+  cursor: pointer;
+}
+.check:hover {
+}
+.show {
+  text-decoration-line: line-through;
+}
+
+.dd {
+}
+
+input[type="checkbox"]:checked + .show {
+  text-decoration-line: line-through;
+}
